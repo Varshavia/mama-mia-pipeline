@@ -1,0 +1,72 @@
+# Veri dosyaları — ASLA commit etme, 100GB patlar
+data/
+images/
+segmentations/
+*.nii.gz
+*.nii
+*.dcm
+
+# Modeller ve checkpoint'ler
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+
+# Deney takibi
+wandb/
+mlruns/
+lightning_logs/
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env ve secrets
+.env
+*.key
+*.pem
+
+# Çıktılar ve geçici
+outputs/
+results/
+*.log
+*.tmp
+tmp/
+
+# Büyük dosyalar
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Klinik Excel'leri repo'da TUTMA - hasta verisi içerir
+*clinical*.xlsx
+*patient*.xlsx
