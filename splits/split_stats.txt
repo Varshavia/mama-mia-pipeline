@@ -1,0 +1,44 @@
+
+TRAIN (1053 hasta)
+subtype_4class
+HER2         164
+Luminal_A    266
+Luminal_B    256
+TNBC         349
+unknown       18
+
+collection
+DUKE     204
+ISPY1    120
+ISPY2    684
+NACT      45
+
+
+VAL (226 hasta)
+subtype_4class
+HER2         35
+Luminal_A    57
+Luminal_B    54
+TNBC         76
+unknown       4
+
+collection
+DUKE      43
+ISPY1     26
+ISPY2    147
+NACT      10
+
+
+TEST (227 hasta)
+subtype_4class
+HER2         35
+Luminal_A    58
+Luminal_B    56
+TNBC         74
+unknown       4
+
+collection
+DUKE      44
+ISPY1     25
+ISPY2    149
+NACT       9
