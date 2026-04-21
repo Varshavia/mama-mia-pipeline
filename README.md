@@ -172,3 +172,5 @@ mama-mia-breast-pipeline/
 - [ ] Eğer baseline düşükse preprocessing audit → N4, resample, z-score kontrol
 
 **Pazartesi sonu teslim:** Private GitHub repo + baseline Dice metriği + alt tip dağılım notebook'u + eksik dosya listesi Arda'ya.
+
+## 7. güncelleme model %83.45 ile eğitildi
