@@ -80,7 +80,6 @@ class SwinClassifier(nn.Module):
     def __init__(self, num_classes=4, img_size=96, dropout=0.3):
         super().__init__()
         self.swin = SwinUNETR(
-            img_size=(img_size, img_size, img_size),
             in_channels=1,
             out_channels=num_classes,   # kullanilmayacak
             feature_size=48,
